@@ -21,3 +21,7 @@ Uma calculadora simples desenvolvida com o React. Este projeto permite realizar 
 1. Clone este repositório:
    ```bash
    git clone https://github.com/gessi-guedes/Calculadora.Testes.git
+
+2. Instale o Node:
+    ```bash
+   npm i
