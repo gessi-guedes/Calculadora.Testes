@@ -25,3 +25,5 @@ Uma calculadora simples desenvolvida com o React. Este projeto permite realizar 
 2. Instale o Node:
     ```bash
    npm i
+
+teste de commit com o samuel
