@@ -24,7 +24,6 @@ function App() {
         <TituloCalculadora />
         <Display tela={tela} />
         <Teclado1 value={list} atualizar={setTela} tela={tela} />
-
         <button value={'0'} onClick={handleClickClear} >Apagar</button>
       </styles.StyledCalc>
     </>
