@@ -3,6 +3,7 @@ import TituloCalculadora from '../src/components/calculadora/Title/title'
 import Teclado1 from './components/calculadora/ButtonGrid/buttonGrid'
 import Display from "./components/calculadora/Display/display";
 import './App.css'
+import * as styles from "./components/calculadora/ButtonGrid/styles"
 
 
 
@@ -19,13 +20,12 @@ function App() {
 
   return (
     <>
-      <div>
+      <styles.StyledCalc>
         <TituloCalculadora />
         <Display tela={tela} />
         <Teclado1 value={list} atualizar={setTela} tela={tela} />
-
         <button value={'0'} onClick={handleClickClear} >Apagar</button>
-      </div>
+      </styles.StyledCalc>
     </>
   )
 }

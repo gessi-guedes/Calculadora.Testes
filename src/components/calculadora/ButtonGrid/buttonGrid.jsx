@@ -34,8 +34,7 @@ export default function Teclado1({ value, atualizar, tela }) {
           return(
             atualizar(num1/num2)
           )
-        }
-    }  
+        }}
 
     return (
         <>
@@ -46,7 +45,6 @@ export default function Teclado1({ value, atualizar, tela }) {
                     </styles.StyledButton>)}
                 <styles.StyledButton onClick={()=> handleClickIgual() }>=</styles.StyledButton>
             </styles.StyledTeclado>
-            
 
         </>
     )
