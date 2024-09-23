@@ -26,4 +26,3 @@ Uma calculadora simples desenvolvida com o React. Este projeto permite realizar 
     ```bash
    npm i
 
-teste de commit com o samuel

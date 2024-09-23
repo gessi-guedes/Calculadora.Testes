@@ -6,6 +6,7 @@
             <>
             <Container>
                 <Text>Calculadora</Text>
+                <Text>testando :D</Text>
             </Container>      
             </>
         )
